@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title"><i class="uil uil-list-ul"></i> To Do List</h1>
+        <div class="filter">
+            <ul class="filter_nav">
+                <li class="filter_li"><h3>All</h3></li>
+                <li class="filter_li"><h3>Undone</h3></li>
+                <li class="filter_li"><h3>Done</h3></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="todo-list">
+        <div class="list__head">
+            <input type="text" class="text__enter" placeholder="Add a new task">
+            <button class="add__list">Add</button>
+        </div>
+
+        <div class="task">
+            <div class="task__item">
+                <p>Do homework BITC</p>
+                <div class="item__btn">
+                    <i class="uil uil-trash-alt del"></i>
+                    <i class="uil uil-edit edit"></i>
+                </div>
+            </div>
+        </div>
+        <div class="task">
+            <div class="task__item">
+                <p>Do ASM BTEC</p>
+                <div class="item__btn">
+                    <i class="uil uil-trash-alt del"></i>
+                    <i class="uil uil-edit edit"></i>
+                </div>
+            </div>
+        </div>
+        <div class="task">
+            <div class="task__item">
+                <p>Partcipate in IT TOUR</p>
+                <div class="item__btn">
+                    <i class="uil uil-trash-alt del"></i>
+                    <i class="uil uil-edit edit"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
